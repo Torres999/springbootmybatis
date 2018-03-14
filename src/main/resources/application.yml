@@ -1,0 +1,48 @@
+server:
+    port: 18080
+    tomcat:
+        max-threads: 400
+
+spring:
+    profiles:
+        active: @profiles.active@
+    http:
+        multipart:
+        enabled: true
+        max-file-size: 3MB
+        max-request-size: 3MB
+#    application:
+#        name: springbootmybatis
+#    sleuth:
+#      sampler:
+#        percentage: ${spring.sleuth.sampler.percentage}
+#    zipkin:
+#      base-url: ${spring.zipkin.base-url}
+#    mail:
+#      host: mail.demo.com.cn
+#      username: username
+#      password: password
+
+eureka:
+  client:
+    service-url:
+      defaultZone: ${eureka.client.service-url.defaultZone}
+  instance:
+      instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+      prefer-ip-address: true
+      metadata-map.cluster: MAIN
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 9000
+ribbon:
+  ConnectTimeout: 90000
+  ReadTimeout: 90000
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

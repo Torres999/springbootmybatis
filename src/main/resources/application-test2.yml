@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://xxx:3306/idc_apiaccount?useUnicode=true&amp;characterset=utf-8
+    username: xxx
+    password: xxx
+
+swagger:
+  show: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xxx:10083/eureka/,http://xxx:10083/eureka/,http://xxx:10083/eureka/

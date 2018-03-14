@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.springbootmybatis.dao.mapper.AcctMapper">
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.Acct">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_no" jdbcType="CHAR" property="userNo" />
+    <id column="curr_no" jdbcType="VARCHAR" property="currNo" />
+    <id column="acct_type_no" jdbcType="CHAR" property="acctTypeNo" />
+    <id column="exp" jdbcType="CHAR" property="exp" />
+    <result column="acct_no" jdbcType="CHAR" property="acctNo" />
+    <result column="acct_alias" jdbcType="VARCHAR" property="acctAlias" />
+    <result column="user_type" jdbcType="CHAR" property="userType" />
+    <result column="bal" jdbcType="DECIMAL" property="bal" />
+    <result column="inc_bal" jdbcType="DECIMAL" property="incBal" />
+    <result column="frz_bal" jdbcType="DECIMAL" property="frzBal" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="dac" jdbcType="CHAR" property="dac" />
+    <result column="node" jdbcType="INTEGER" property="node" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="last_time" jdbcType="TIMESTAMP" property="lastTime" />
+  </resultMap>
+</mapper>

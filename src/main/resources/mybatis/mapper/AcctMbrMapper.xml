@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.demo.springbootmybatis.dao.mapper.AcctMbrMapper" >
+  <resultMap id="BaseResultMap" type="com.demo.springbootmybatis.dao.domain.AcctMbr" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="mobile_no" property="mobileNo" jdbcType="CHAR" />
+    <result column="user_no" property="userNo" jdbcType="VARCHAR" />
+    <result column="reserve1" property="reserve1" jdbcType="VARCHAR" />
+    <result column="reserve2" property="reserve2" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
