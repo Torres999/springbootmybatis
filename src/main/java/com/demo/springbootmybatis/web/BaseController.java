@@ -1,4 +1,4 @@
 package com.demo.springbootmybatis.web;
 
-public class Test {
+public class BaseController {
 }

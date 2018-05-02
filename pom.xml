@@ -110,6 +110,13 @@
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>1.0.4.RELEASE</version>
+            <!-- 具体版本需要和kafka server对应，最好用kafka server 10.0，kafka server 10.0之后不需要配置 advertised.host.name／advertised.port-->
+        </dependency>
+
         <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->
             <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
