@@ -39,4 +39,10 @@ public class TestController {
         List<Acct> responseResult = testService.getAcctListByAcctNoPagination(pageNum, pageSize, acctNo);
         return new ResponseEntity(responseResult, HttpStatus.OK);
     }
+
+    @RequestMapping(value = "/unitTest", method = RequestMethod.GET)
+    public ResponseEntity<ResponseResult> unitTest() {
+        log.info("receive a request edit reserve use status");
+        return new ResponseEntity( HttpStatus.OK);
+    }
 }
